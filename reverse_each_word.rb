@@ -14,5 +14,4 @@ def reverse_each_word(sentence)
   end
   
   string= array.join(' ')
-  string
 end
