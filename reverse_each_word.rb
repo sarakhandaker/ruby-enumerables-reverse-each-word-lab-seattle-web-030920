@@ -1,18 +1,16 @@
 def reverse_each_word(sentence)
   array=sentence.split(" ")
-  
+  new_arr=[]
 array.each do |word|
-    word.reverse
+    new_arr<< word.reverse
   end
-
 end
 
 #def reverse_each_word(sentence)
-#  array=sentence.split(" ")
-
-#  array.collect do |word|
- #   word.reverse
- # end
-  
- # string= array.join(' ')
-#end
+ # array=sentence.split(" ")
+# new_arr=[]
+ # array.collect do |word|
+ #   new_arr<< word.reverse
+# end
+# string= array.join(' ')
+# end
