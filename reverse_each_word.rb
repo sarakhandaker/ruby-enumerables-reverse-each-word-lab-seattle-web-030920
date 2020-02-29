@@ -6,7 +6,7 @@
  # end
 #end
 
-def reverve_word(sentence)
+def reverve_each_word(sentence)
   array=sentence.split(" ")
   
   array.collect do |word|
