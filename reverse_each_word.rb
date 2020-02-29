@@ -6,10 +6,10 @@
  # end
 #end
 
-def reverse_each_word(sentence)
-  array=sentence.split(" ")
+#def reverse_each_word(sentence)
+#  array=sentence.split(" ")
 
-  array.collect do |word|
+#  array.collect do |word|
     word.reverse
   end
   
