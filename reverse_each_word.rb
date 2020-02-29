@@ -1,13 +1,13 @@
 def reverve_word(sentence)
   array=sentence.split(" ")
   
-  array.each 
+  array.each do ||
   
 end
 
 def reverve_word(sentence)
   array=sentence.split(" ")
   
-  array.collect 
+  array.collect do ||
   
 end
