@@ -4,3 +4,10 @@ def reverve_word(sentence)
   array.each 
   
 end
+
+def reverve_word(sentence)
+  array=sentence.split(" ")
+  
+  array.collect 
+  
+end
